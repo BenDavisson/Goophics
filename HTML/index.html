@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/css/foundation.min.css" integrity="sha256-iJQ8dZac/jUYHxiEnZJsyVpKcdq2sQvdA7t02QFmp30= sha384-SplqNBo/0ZlvSdwrP/riIPDozO5ck8+yIm++KVqyMAC53S6m3BaV+2OLpi7ULOOh sha512-ho6hK4sAWdCeqopNZWNy1d9Ok2hzfTLQLcGSr8ZlRzDzh6tNHkVoqSl6wgLsqls3yazwiG9H9dBCtSfPuiLRCQ==" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../Css/index.css" />
     <!-- Compressed JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
     <!-- CDN not loading wtf-->
@@ -15,20 +15,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goophics</title>
   </head>
-  <body>
-    <h1>Goophics Bitch</h1>\
-    <!-- BEN: Check notes for nice dynamic image scaling demo -->
-    <div class="media-object">
-      <div class="media-object-section">
-        <div class="thumbnail">
-          <img src="../Photos/constellationspic.jpg">
-        </div>
+  <body class="grid-container">
+    <div id="header" class="grid-x align-middle align-justify">
+      <div class="cell small-3">
+        <a id="GooLogo" href="" >Goophics</a>
       </div>
-      <div class="media-object-section">
-        <h4>Dreams feel real while we're in them.</h4>
-        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+      <div class="cell auto grid-x align-right">
+        <ul class="menu GooFont">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
     </div>
+    <div id="torso">
+      <h1 class="GooFont">Goophics Bitch</h1>
+      <!-- BEN: Check notes for nice dynamic image scaling demo -->
+      <div class="media-object stack-for-small GooFont">
+        <div class="media-object-section">
+          <div class="thumbnail">
+          </div>
+        </div>
+        <div class="media-object-section">
+          <h4>I Can Stack.</h4>
+          <p>Shrink the browser width to see me stack. I do tricks for dog treats, but I'm not a dog.</p>
+        </div>
+      </div>
+    </div>
+
+
 
     <script>
       $(document).foundation();
