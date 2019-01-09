@@ -1,0 +1,28 @@
+html{
+  width: 100%;
+  background-color: black;
+}
+body{
+  background-color: inherit;
+}
+a{
+  color: #80ff80;
+}
+
+#GooLogo{
+  padding: 16px;
+  padding-top: 16px;
+}
+
+#header{
+  /*
+  background-image: url(../Photos/constellationspic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  */
+}
+
+.GooFont{
+  color: #00ff00;
+}
