@@ -1,6 +1,6 @@
 html{
-  width: 100%;
   background-color: #000000;
+  #669999
 }
 
 body{
@@ -13,19 +13,32 @@ a{
 
 a:hover{
   color: #000000;
-    background-color: #80ff80;
+  background-color: #80ff80;
+}
+
+.nav-bar{
+  border: 2px solid #80ff80;
 }
 
 .nav-bar-item{
   border-left: 2px solid #80ff80;
-  border-bottom: 2px solid #80ff80;
+}
+
+.GooFont{
+  color: #80ff80;
+}
+
+#img{
+  width: 100%;
+  height: 200px;
 }
 
 #GooLogo{
-  padding: 16px;
-  padding-top: 16px;
-}
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
 
+}
 #header{
   /*
   background-image: url(../Photos/constellationspic.jpg);
@@ -33,8 +46,4 @@ a:hover{
   background-size: cover;
   background-position: center center;
   */
-}
-
-.GooFont{
-  color: #00ff00;
 }
