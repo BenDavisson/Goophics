@@ -2,14 +2,20 @@
 <html class="no-js" lang="en">
   <head>
 
-    <!-- Compressed jQuery -->
+    <!-- Zurb:Foundation jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- Compressed CSS -->
+
+    <!-- Foundation: Zurb  CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/css/foundation.min.css" integrity="sha256-iJQ8dZac/jUYHxiEnZJsyVpKcdq2sQvdA7t02QFmp30= sha384-SplqNBo/0ZlvSdwrP/riIPDozO5ck8+yIm++KVqyMAC53S6m3BaV+2OLpi7ULOOh sha512-ho6hK4sAWdCeqopNZWNy1d9Ok2hzfTLQLcGSr8ZlRzDzh6tNHkVoqSl6wgLsqls3yazwiG9H9dBCtSfPuiLRCQ==" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Css/index.css" />
-    <!-- Compressed JavaScript -->
+
+    <!-- Foundation:Zurb JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
-    <!-- CDN not loading wtf-->
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Custom CSS from Ben-->
+    <link rel="stylesheet" href="../Css/index.css" />
+
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,12 +24,14 @@
   <body class="grid-container">
     <div id="header" class="grid-x">
       <div class="cell">
-        <div class="grid-x">
-          <img id="img" src="../Photos/constellationspic.jpg"/>
+        <div id="forehead" class="grid-x">
+          <div class="cell small-12">
+            <img id="img" src="../Photos/constellationspic.jpg"/>
+          </div>
         </div>
         <div class="grid-x">
           <div class="cell" data-sticky-container>
-            <div class="grid-x align-justify align-middle nav-bar" data-sticky data-options="marginTop:0;" style="width: 100%;" data-top-anchor="img:bottom" >
+            <div class="grid-x align-justify align-middle nav-bar" data-sticky data-options="marginTop:0;" style="width: 100%;" data-top-anchor="forehead:bottom" >
               <div class="cell small-3">
                 <a id="GooLogo" href="" >Goophics</a>
               </div>
@@ -33,6 +41,14 @@
                   <li class="nav-bar-item"><a href="#">Portfolio</a></li>
                   <li class="nav-bar-item"><a href="#">Blog</a></li>
                   <li class="nav-bar-item" ><a href="#">Contact</a></li>
+                  <!-- Social Media Icons-->
+                  <!--
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-pinterest-square"></i>
+                  <i class="fab fa-twitter-square"></i></li>
+                  <i class="fab fa-instagram"></i>
+                  -->
                 </ul>
               </div>
             </div>
