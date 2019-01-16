@@ -9,4 +9,14 @@ Specs:
 - Back-End: Node.js? ASP.net? Have to look into it
 - Hosting: AWS
 
-New Line added for Git
+Notes:
+
+-Zurb
+
+This framework is Bad. Ass.  Perfectly lines up with ideas...
+
+Pro's:
+- Light & Fast
+- Built-In Features
+  - Includes an email newsletter framework (dope)
+- Great Doc's

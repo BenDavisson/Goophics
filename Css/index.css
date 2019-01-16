@@ -1,19 +1,48 @@
 html{
-  width: 100%;
-  background-color: black;
+  background-color: #000000;
 }
+
+/* Katie's suggested background color
+  #669999
+*/
+
 body{
   background-color: inherit;
 }
+
 a{
   color: #80ff80;
 }
 
-#GooLogo{
-  padding: 16px;
-  padding-top: 16px;
+a:hover{
+  color: #000000;
+  background-color: #80ff80;
 }
 
+.nav-bar{
+  border: 2px solid #80ff80;
+  background-color: #000000;
+}
+
+.nav-bar-item{
+  border-left: 2px solid #80ff80;
+}
+
+.GooFont{
+  color: #80ff80;
+}
+
+#img{
+  width: 100%;
+  height: 750px;
+}
+
+#GooLogo{
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+
+}
 #header{
   /*
   background-image: url(../Photos/constellationspic.jpg);
@@ -21,8 +50,4 @@ a{
   background-size: cover;
   background-position: center center;
   */
-}
-
-.GooFont{
-  color: #00ff00;
 }
